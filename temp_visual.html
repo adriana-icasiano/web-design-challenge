@@ -10,34 +10,39 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">Latitude</a>
-            </div>
+            <a class="navbar-brand" href="index.html">Latiitude</a>
+            <div class="nav navbar-nav navbar-right">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Plots
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="temp_visual.html">Max Temperature</a></li>
+                                <li><a class="dropdown-item" href="humid_visual.html">Humdity</a></li>
+                                <li><a class="dropdown-item" href="cloud_visual.html">Cloudiness</a></li>
+                                <li><a class="dropdown-item" href="wind_visual.html">Windspeed</a></li>
+                            </ul>
+                        </li>
 
-            <ul class="nav navbar-nav navbar-right">
-                <div class="dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdown"
-                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Plots
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a href="temp_visual.html">Max Temperature</a></li>
-                        <li> <a href="cloud_visual.html">Cloudiness</a></li>
-                        <li><a href="humid_visual.html">Humidity</a></li>
-                        <li><a href="wind_visual.html">Windspeed</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comparison.html">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">Data</a>
+                        </li>
                     </ul>
                 </div>
-                <li class="nav-item active">
-                    <a class="nav-link" href="comparison.html">Comparison </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="data.html">Data</a>
-                </li>
-            </ul>
-
+            </div>
         </div>
     </nav>
     <h1>Max Temperature</h1>
@@ -45,7 +50,8 @@
         <div class="col-md-8 col-sm-6 col-xs-6">
             <div class="box purple">Latitude vs Temperature</div>
             <p>The closer a city is from the equator, the higher the temperature. Higher positive latitude means further
-                north of the equator. As the latitude gets closed to zero (i.e. the equator) the temperature rises. As the
+                north of the equator. As the latitude gets closed to zero (i.e. the equator) the temperature rises. As
+                the
                 latitude increase towards the right of the plot, or when the city is further from the equator, the
                 temperature decreases. This is consistent with the basic understanding that temperature is higher near
                 the equator.</p>

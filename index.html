@@ -17,38 +17,45 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">Latitude</a>
-            </div>
+            <a class="navbar-brand" href="index.html">Latiitude</a>
+            <div class="nav navbar-nav navbar-right">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Plots
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="temp_visual.html">Max Temperature</a></li>
+                                <li><a class="dropdown-item" href="humid_visual.html">Humdity</a></li>
+                                <li><a class="dropdown-item" href="cloud_visual.html">Cloudiness</a></li>
+                                <li><a class="dropdown-item" href="wind_visual.html">Windspeed</a></li>
+                            </ul>
+                        </li>
 
-            <ul class="nav navbar-nav navbar-right">
-                <div class="dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdown"
-                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Plots
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a href="temp_visual.html">Max Temperature</a></li>
-                        <li> <a href="cloud_visual.html">Cloudiness</a></li>
-                        <li><a href="humid_visual.html">Humidity</a></li>
-                        <li><a href="wind_visual.html">Windspeed</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comparison.html">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">Data</a>
+                        </li>
                     </ul>
                 </div>
-                <li class="nav-item active">
-                    <a class="nav-link" href="comparison.html">Comparison </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="data.html">Data</a>
-                </li>
-            </ul>
-
+            </div>
         </div>
     </nav>
+
     <!--These col-md-3 columns go half wide when on a small screen and full on extra small-->
     <div class="row">
         <div class="col-md-6 col-sm-12">
             <div class="box purple">Summary: Latitude vs X</div>
-            <img class="col-md-6 col-sm-3" src="static\images\Fig1.png" alt="Fig1 Latitude vs Temp" class = image-fluid>
+            <img class="col-md-6 col-sm-3" src="static\images\Fig1.png" alt="Fig1 Latitude vs Temp" class=image-fluid>
             <p>Students are tasked creating a Python script to visualize the weather of 500+ cities across the
                 world of varying distance from the equator. To accomplish this, students would be utilizing a
                 simple Python library, the OpenWeatherMap API to create a representative model of weather across
@@ -81,39 +88,12 @@
         </div>
 
     </div>
-    <!--
-    <div class="container">
-        <h3 class="text-left">Summary: Latitude vs X</h3>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="thumbnail">
-                    <img src="static\images\Fig1.png" alt="Fig1 Latitude vs Temp" class="img-thumbnail">
-                    <p>Students are tasked creating a Python script to visualize the weather of 500+ cities across the
-                        world of varying distance from the equator. To accomplish this, students would be utilizing a
-                        simple Python library, the OpenWeatherMap API to create a representative model of weather across
-                        world cities. Information collected from Open Weather Map API include latitude, longitude,
-                        windspeed, cloudiness, humidity, and country for each of the 500+ cities.</p>
-                </div>
-                <div class="col-md-6">
-                    <div class="thumbnail">
-                        <img src="static\images\Fig1.png" alt="Fig1 Latitude vs Temp" class="img-thumbnail">
-                        <p>Students are tasked creating a Python script to visualize the weather of 500+ cities across
-                            the
-                            world of varying distance from the equator. To accomplish this, students would be utilizing
-                            a
-                            simple Python library, the OpenWeatherMap API to create a representative model of weather
-                            across
-                            world cities. Information collected from Open Weather Map API include latitude, longitude,
-                            windspeed, cloudiness, humidity, and country for each of the 500+ cities.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- MAKE SURE TO INCLUDE BOOTSTRAP JAVASCRIPT -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
