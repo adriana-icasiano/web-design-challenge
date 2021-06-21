@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <title>Wind Visualization</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-      <link rel="stylesheet" href="static/css/style.css">
-    </head>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wind Visualization</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
 <body>
 
-  <div class="col-md-6 col-sm-6">
-    <div class="box purple">Latitude vs Wind Speed</div>
-    <img src="static\images\Fig4.png" alt="Fig4 Latitude vs Wind Speed" class="img-thumbnail">
-</div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <h1>Wind Speed</h1>
+  <div class="row">
+    <div class="col-md-8 col-sm-6 col-xs-6">
+      <div class="box purple">Latitude vs Wind Speed</div>
+      <p>The plots are very scattered through out the plot. It appears that latitude does not have a relationship with
+        wind speed.
+
+      </p><img class="col-md-12 col-sm-6 col-xs-6" src="static\images\Fig4.png" alt="Fig4 Latitude vs Wind Speed"
+        class="img-thumbnail">
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="row">
+        <div class="box purple">Visualizations</div>
+        <div class="col-md-6 col-sm-12">
+          <a href="temp_visual.html">
+            <img src="static\images\Fig1.png" alt="Fig1 Latitude vs Temp" class="img-thumbnail"></a>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <a href="humid_visual.html">
+            <img src="static\images\Fig2.png" alt="Fig2 Latitude vs Humidity" class="img-thumbnail"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <a href="cloud_visual.html">
+            <img src="static\images\Fig3.png" alt="Fig3 Latitude vs Cloudiness " class="img-thumbnail"></a>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="border border-dark"><a href="wind_visual.html">
+              <img src="static\images\Fig4.png" alt="Fig4 Latitude vs Wind Speed" class="img-thumbnail"></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
