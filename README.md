@@ -4,6 +4,13 @@
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
+## Table of Contents ##
+* [Website Requirements](https://github.com/adriana-icasiano/web-design-challenge#Website-Requirements)
+* [Landing Page](https://github.com/adriana-icasiano/web-design-challenge#Landing-Page)
+* [Visualization Page](https://github.com/adriana-icasiano/web-design-challenge#Visualization-Pages)
+* [Comparison Page](https://github.com/adriana-icasiano/web-design-challenge#Comparison-Page)
+* [Data Page](https://github.com/adriana-icasiano/web-design-challenge#Data-Page)
+* [Navigation Bar](https://github.com/adriana-icasiano/web-design-challenge#Navigation-Bar)
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
 For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
@@ -11,10 +18,15 @@ For this homework we'll be creating a visualization dashboard website using visu
 In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 ### Website Requirements
-
 The website must consist of 7 pages total, including:
+* A landing page
+* Four visualization pages
+* Comparsion page
+* Data Page
+* Navigation bar
 
-## A landing page containing
+## Landing Page
+A landing page containing
   * An explanation of the project.
   * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
 
@@ -27,7 +39,8 @@ The website must consist of 7 pages total, including:
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/landing_small.PNG)
 
 
-## Four visualization pages, each with:
+## Visualization pages
+Four visualization pages, each with:
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
@@ -40,7 +53,8 @@ The website must consist of 7 pages total, including:
 
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/visualization_small.PNG)
 
-## A Comparison page that:
+## Comparison Page
+A Comparison page that:
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a Bootstrap grid for the visualizations.
 
@@ -53,7 +67,8 @@ The website must consist of 7 pages total, including:
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/comparison_small.PNG)
 
 
-## A Data page that:
+## Data Page
+A Data page that:
   * Displays a responsive table containing the data used in the visualizations.
   
 ## Data - large screen:
@@ -63,7 +78,8 @@ The website must consist of 7 pages total, including:
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/data_small.PNG)
 
 
-## A navigation menu that is responsive. See screenshots above.
+## Navigation Bar
+A navigation menu that is responsive. See screenshots above.
 
 
 Finally, the website must be deployed to GitHub pages.
