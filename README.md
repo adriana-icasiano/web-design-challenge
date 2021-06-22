@@ -18,19 +18,21 @@ The website must consist of 7 pages total, including:
   * An explanation of the project.
   * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
 
-##Landing page - large screen
+## Landing page - large screen
 
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/landing_large.PNG)
  
 Landing page - small screen
 
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/landing_small.PNG)
-* Four visualization pages, each with:
+
+
+## Four visualization pages, each with:
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
 
-##Temperature visualization page - large screen:
+Temperature visualization page - large screen:
 
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/visualization_large.PNG)
 
@@ -38,7 +40,7 @@ Temperature visualization page - small screen:
 
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/visualization_small.PNG)
 
-##A Comparison page that:
+## A Comparison page that:
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a Bootstrap grid for the visualizations.
 
