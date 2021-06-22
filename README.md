@@ -14,7 +14,7 @@ In building this dashboard, we'll create individual pages for each plot and a me
 
 The website must consist of 7 pages total, including:
 
-* A landing page containing
+## A landing page containing
   * An explanation of the project.
   * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
 
@@ -22,7 +22,7 @@ The website must consist of 7 pages total, including:
 
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/landing_large.PNG)
  
-Landing page - small screen
+## Landing page - small screen
 
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/landing_small.PNG)
 
@@ -32,11 +32,11 @@ Landing page - small screen
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
 
-Temperature visualization page - large screen:
+## Temperature visualization page - large screen:
 
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/visualization_large.PNG)
 
-Temperature visualization page - small screen:
+## Temperature visualization page - small screen:
 
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/visualization_small.PNG)
 
@@ -44,26 +44,26 @@ Temperature visualization page - small screen:
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a Bootstrap grid for the visualizations.
 
-Comparison page - large screen:
+## Comparison page - large screen:
 
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/comparison_large.PNG)
 
-Comparison page - small screen:
+## Comparison page - small screen:
 
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/comparison_small.PNG)
 
 
-* A Data page that:
+## A Data page that:
   * Displays a responsive table containing the data used in the visualizations.
   
-Data - large screen:
+## Data - large screen:
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/data_large.PNG)
 
-Data - small screen:
+## Data - small screen:
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/data_small.PNG)
 
 
-* A navigation menu that is responsive. See screenshots above.
+## A navigation menu that is responsive. See screenshots above.
 
 
 Finally, the website must be deployed to GitHub pages.
