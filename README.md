@@ -4,8 +4,6 @@
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
-![Images/landingResize.png](Images/landingResize.png)
-
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
 For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
@@ -13,8 +11,6 @@ For this homework we'll be creating a visualization dashboard website using visu
 In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 ### Website Requirements
-
-For reference, see the ["Screenshots" section](#screenshots) below.
 
 The website must consist of 7 pages total, including:
 
@@ -29,40 +25,40 @@ Landing page - large screen
 Landing page - small screen
 
 ![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/landing_small.PNG)
-* Four [visualization pages](#visualization-pages), each with:
+* Four visualization pages, each with:
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
 
 Temperature visualization page - large screen:
 
-!()[https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/visualization_large.PNG]
+![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/visualization_large.PNG
 
 Temperature visualization page - small screen:
 
-!()[https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/visualization_small.PNG]
+![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/visualization_small.PNG)
 
-* A ["Comparisons" page](#comparisons-page) that:
+* A Comparison page that:
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a Bootstrap grid for the visualizations.
 
 Comparison page - large screen:
 
-!()[https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/comparison_large.PNG]
+![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/comparison_large.PNG)
 
 Comparison page - small screen:
 
-!()[https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/comparison_small.PNG]
+![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/comparison_small.PNG)
 
 
-* A ["Data" page](#data-page) that:
+* A Data page that:
   * Displays a responsive table containing the data used in the visualizations.
   
 Data - large screen:
-!()[https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/data_large.PNG]
+![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/data_large.PNG)
 
 Data - small screen:
-!()[https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/data_small.PNG]
+![](https://github.com/adriana-icasiano/web-design-challenge/blob/0d897406dfd49cdae710f91a017e8adb7c10742d/Images/data_small.PNG)
 
 
 * A navigation menu that is responsive. See screenshots above.
